@@ -12,3 +12,7 @@ body {
   border-radius: 10px;
   padding: 30px;
 }
+
+.weather-app-current-temperature {
+  display: flex;
+}
