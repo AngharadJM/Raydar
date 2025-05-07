@@ -55,8 +55,9 @@ header {
 }
 
 .weather-app-icon {
-  text-align: center;
-  font-size: 100px;
+  display: block;
+  width: 170px;
+  margin: 0 auto;
 }
 
 .weather-app-temperature-container {
