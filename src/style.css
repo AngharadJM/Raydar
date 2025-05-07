@@ -1,6 +1,10 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #eef2fc;
   font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: #1e5ba5;
 }
 
 .weather-app {
@@ -13,6 +17,88 @@ body {
   padding: 30px;
 }
 
-.weather-app-current-temperature {
+header {
+  border-bottom: 1px solid #eef2fc;
+  padding: 0 0 30px 0;
+}
+
+.search-form-input {
+  background-color: #eef2fc;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  background-color: #0e2d54;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+}
+
+.weather-app-city {
+  text-align: center;
+  color: #0e2d54;
+  margin: 10px auto;
+}
+
+.weather-app-details {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.weather-app-icon {
+  text-align: center;
+  font-size: 100px;
+}
+
+.weather-app-temperature-container {
   display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  align-items: center;
+  color: #0e2d54;
+}
+
+.weather-app-humidity,
+.weather-app-wind,
+.weather-app-conditions {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 15px 0;
+}
+
+.weather-app-temperature-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.weather-app-temperature {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 4px;
+  line-height: 4px;
+}
+
+.weather-app-unit {
+  font-size: 24px;
+  line-height: 1;
+}
+
+footer {
+  text-align: center;
+  margin: 5px auto;
+  padding: 25px 0 0 0;
+  border-top: 1px solid #eef2fc;
+  font-size: 13px;
 }
