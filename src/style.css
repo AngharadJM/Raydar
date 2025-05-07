@@ -62,8 +62,8 @@ header {
 .weather-app-temperature-container {
   display: flex;
   justify-content: space-evenly;
-  gap: 5px;
   align-items: center;
+  margin-left: -20px;
   color: #0e2d54;
 }
 
